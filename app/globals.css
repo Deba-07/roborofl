@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
+/* ── DESIGN TOKENS ─────────────────────────────────────────────────────────── */
+:root {
+  --bg:     #010101;
+  --orange: #ec5b13;
+  --yellow: #facc15;
+  --green:  #4ade80;
+  --blue:   #38bdf8;
+  --purple: #a78bfa;
+  --pink:   #f472b6;
+  --text:   #ffffff;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -7,14 +19,14 @@
 }
 
 html {
-  scroll-behavior: auto; /* Lenis handles smooth scroll */
+  scroll-behavior: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  background-color: #1a0f0a;
-  color: #ffffff;
+  background-color: var(--bg);
+  color: var(--text);
   font-family: 'Public Sans', sans-serif;
   overflow-x: hidden;
 }
@@ -41,7 +53,7 @@ html.lenis body {
   pointer-events: none;
 }
 
-/* Selection color */
+/* Selection colour */
 ::selection {
   background: rgba(250, 204, 21, 0.25);
   color: white;
@@ -52,7 +64,7 @@ html.lenis body {
   width: 4px;
 }
 ::-webkit-scrollbar-track {
-  background: #1a0f0a;
+  background: var(--bg);
 }
 ::-webkit-scrollbar-thumb {
   background: rgba(236, 91, 19, 0.4);

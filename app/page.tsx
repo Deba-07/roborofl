@@ -27,7 +27,7 @@ export default function Home() {
     <>
       <Navbar />
       {/* <HeroSection /> */}
-      <HeroV2 />
+      {/* <HeroV2 /> */}
       {/* <HeroV3 /> */}
       {/* <HeroV4 /> */}
       {/* <HeroV5 /> */}
@@ -35,7 +35,7 @@ export default function Home() {
       {/* <HeroV7 /> */}
       {/* <HeroV8 /> */}
       {/* <HeroV9 /> */}
-      {/* <HeroV10 /> */}
+      <HeroV10 />
       {/* <HeroV13 /> */}
       {/* <HeroV14 /> */}
       {/* <HeroV15 /> */}
